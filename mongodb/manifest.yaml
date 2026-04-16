@@ -46,7 +46,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: esrasd/mongodb:1.3.0
+        image: esrasd/mongodb:1.0.0
         volumeMounts:
         - name: mongodb-c
           mountPath: /data/db
